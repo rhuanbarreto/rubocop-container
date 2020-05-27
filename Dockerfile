@@ -1,4 +1,3 @@
-FROM ruby
+FROM ruby:latest
 
-RUN gem install rubocop
-RUN gem install rubocop-rails
+RUN gem install rubocop rubocop-rails
